@@ -10,7 +10,7 @@ defaults:
 
   # If non-empty a string used to separate multiple fields in a column
   # White space will be stripped
-  split: ;
+  # split: ;
   # Should this column be included in the clients (yes/no)
   includeclient: true
   # Should this column be visible in the clients, if no the column should be
@@ -69,7 +69,7 @@ columns:
           include: true
         - name: Primary Antibody 1 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -82,7 +82,7 @@ columns:
           include: true
         - name: Primary Antibody 2 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -95,7 +95,7 @@ columns:
           include: true
         - name: Primary Antibody 3 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -108,7 +108,7 @@ columns:
           include: true
         - name: Primary Antibody 4 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -121,7 +121,7 @@ columns:
           include: true
         - name: Primary Antibody 5 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -134,7 +134,7 @@ columns:
           include: true
         - name: Primary Antibody 6 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -147,7 +147,7 @@ columns:
           include: true
         - name: Primary Antibody 7 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -160,7 +160,7 @@ columns:
           include: true
         - name: Primary Antibody 8 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -173,7 +173,7 @@ columns:
           include: true
         - name: Primary Antibody 9 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -186,7 +186,7 @@ columns:
           include: true
         - name: Primary Antibody 10 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -199,7 +199,7 @@ columns:
           include: true
         - name: Primary Antibody 11 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -212,7 +212,7 @@ columns:
           include: true
         - name: Primary Antibody 12 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -225,7 +225,7 @@ columns:
           include: true
         - name: Primary Antibody 13 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -238,7 +238,7 @@ columns:
           include: true
         - name: Primary Antibody 14 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -251,7 +251,7 @@ columns:
           include: true
         - name: Primary Antibody 15 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -264,7 +264,7 @@ columns:
           include: true
         - name: Primary Antibody 16 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -277,7 +277,7 @@ columns:
           include: true
         - name: Primary Antibody 17 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -290,7 +290,7 @@ columns:
           include: true
         - name: Primary Antibody 18 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -303,7 +303,7 @@ columns:
           include: true
         - name: Primary Antibody 19 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -316,7 +316,7 @@ columns:
           include: true
         - name: Primary Antibody 20 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -329,7 +329,7 @@ columns:
           include: true
         - name: Primary Antibody 21 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -342,7 +342,7 @@ columns:
           include: true
         - name: Primary Antibody 22 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -355,7 +355,7 @@ columns:
           include: true
         - name: Primary Antibody 23 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -368,7 +368,7 @@ columns:
           include: true
         - name: Primary Antibody 24 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -381,7 +381,7 @@ columns:
           include: true
         - name: Primary Antibody 25 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -394,7 +394,7 @@ columns:
           include: true
         - name: Primary Antibody 26 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -407,7 +407,7 @@ columns:
           include: true
         - name: Primary Antibody 27 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -420,7 +420,7 @@ columns:
           include: true
         - name: Primary Antibody 28 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -433,7 +433,7 @@ columns:
           include: true
         - name: Primary Antibody 29 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -446,7 +446,7 @@ columns:
           include: true
         - name: Primary Antibody 30 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -459,7 +459,7 @@ columns:
           include: true
         - name: Primary Antibody 31 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -472,7 +472,7 @@ columns:
           include: true
         - name: Primary Antibody 32 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -485,7 +485,7 @@ columns:
           include: true
         - name: Primary Antibody 33 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -498,7 +498,7 @@ columns:
           include: true
         - name: Primary Antibody 34 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -511,7 +511,7 @@ columns:
           include: true
         - name: Primary Antibody 35 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -524,7 +524,7 @@ columns:
           include: true
         - name: Primary Antibody 36 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -537,7 +537,7 @@ columns:
           include: true
         - name: Primary Antibody 37 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -550,7 +550,7 @@ columns:
           include: true
         - name: Primary Antibody 38 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -563,7 +563,7 @@ columns:
           include: true
         - name: Primary Antibody 39 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
   - group:
       namespace: openmicroscopy.org/mapr/antibody
@@ -576,7 +576,7 @@ columns:
           include: true
         - name: Primary Antibody 40 Identifier
           clientname: Antibody Identifier URL
-          clientvalue: http://antibodyregistry.org/{ value|urlencode }
+          clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
 
   - group:
