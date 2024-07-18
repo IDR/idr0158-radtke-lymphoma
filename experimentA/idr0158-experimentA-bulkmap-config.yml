@@ -10,7 +10,7 @@ defaults:
 
   # If non-empty a string used to separate multiple fields in a column
   # White space will be stripped
-  # split: ;
+  split: ;
   # Should this column be included in the clients (yes/no)
   includeclient: true
   # Should this column be visible in the clients, if no the column should be
@@ -69,7 +69,7 @@ columns:
       namespace: openmicroscopy.org/mapr/antibody
       columns:
         - name: Experimental Condition [Primary Antibody 1]
-          clientname: Antibody 1
+          clientname: Antibody
           include: true
         - name: Primary Antibody 1 Identifier
           clientname: Antibody Identifier
@@ -79,7 +79,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 2]
-          clientname: Antibody 2
+          clientname: Antibody
           include: true
         - name: Primary Antibody 2 Identifier
           clientname: Antibody Identifier
@@ -89,7 +89,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 3]
-          clientname: Antibody 3
+          clientname: Antibody
           include: true
         - name: Primary Antibody 3 Identifier
           clientname: Antibody Identifier
@@ -99,7 +99,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 4]
-          clientname: Antibody 4
+          clientname: Antibody
           include: true
         - name: Primary Antibody 4 Identifier
           clientname: Antibody Identifier
@@ -109,7 +109,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 5]
-          clientname: Antibody 5
+          clientname: Antibody
           include: true
         - name: Primary Antibody 5 Identifier
           clientname: Antibody Identifier
@@ -119,7 +119,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 6]
-          clientname: Antibody 6
+          clientname: Antibody
           include: true
         - name: Primary Antibody 6 Identifier
           clientname: Antibody Identifier
@@ -129,7 +129,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 7]
-          clientname: Antibody 7
+          clientname: Antibody
           include: true
         - name: Primary Antibody 7 Identifier
           clientname: Antibody Identifier
@@ -139,7 +139,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 8]
-          clientname: Antibody 8
+          clientname: Antibody
           include: true
         - name: Primary Antibody 8 Identifier
           clientname: Antibody Identifier
@@ -149,7 +149,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 9]
-          clientname: Antibody 9
+          clientname: Antibody
           include: true
         - name: Primary Antibody 9 Identifier
           clientname: Antibody Identifier
@@ -159,7 +159,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 10]
-          clientname: Antibody 10
+          clientname: Antibody
           include: true
         - name: Primary Antibody 10 Identifier
           clientname: Antibody Identifier
@@ -169,7 +169,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 11]
-          clientname: Antibody 11
+          clientname: Antibody
           include: true
         - name: Primary Antibody 11 Identifier
           clientname: Antibody Identifier
@@ -179,7 +179,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 12]
-          clientname: Antibody 12
+          clientname: Antibody
           include: true
         - name: Primary Antibody 12 Identifier
           clientname: Antibody Identifier
@@ -189,7 +189,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 13]
-          clientname: Antibody 13
+          clientname: Antibody
           include: true
         - name: Primary Antibody 13 Identifier
           clientname: Antibody Identifier
@@ -199,7 +199,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 14]
-          clientname: Antibody 14
+          clientname: Antibody
           include: true
         - name: Primary Antibody 14 Identifier
           clientname: Antibody Identifier
@@ -209,7 +209,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 15]
-          clientname: Antibody 15
+          clientname: Antibody
           include: true
         - name: Primary Antibody 15 Identifier
           clientname: Antibody Identifier
@@ -219,7 +219,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 16]
-          clientname: Antibody 16
+          clientname: Antibody
           include: true
         - name: Primary Antibody 16 Identifier
           clientname: Antibody Identifier
@@ -229,7 +229,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 17]
-          clientname: Antibody 17
+          clientname: Antibody
           include: true
         - name: Primary Antibody 17 Identifier
           clientname: Antibody Identifier
@@ -239,7 +239,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 18]
-          clientname: Antibody 18
+          clientname: Antibody
           include: true
         - name: Primary Antibody 18 Identifier
           clientname: Antibody Identifier
@@ -249,7 +249,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 19]
-          clientname: Antibody 19
+          clientname: Antibody
           include: true
         - name: Primary Antibody 19 Identifier
           clientname: Antibody Identifier
@@ -259,7 +259,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 20]
-          clientname: Antibody 20
+          clientname: Antibody
           include: true
         - name: Primary Antibody 20 Identifier
           clientname: Antibody Identifier
@@ -269,7 +269,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 21]
-          clientname: Antibody 21
+          clientname: Antibody
           include: true
         - name: Primary Antibody 21 Identifier
           clientname: Antibody Identifier
@@ -279,7 +279,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 22]
-          clientname: Antibody 22
+          clientname: Antibody
           include: true
         - name: Primary Antibody 22 Identifier
           clientname: Antibody Identifier
@@ -289,7 +289,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 23]
-          clientname: Antibody 23
+          clientname: Antibody
           include: true
         - name: Primary Antibody 23 Identifier
           clientname: Antibody Identifier
@@ -299,7 +299,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 24]
-          clientname: Antibody 24
+          clientname: Antibody
           include: true
         - name: Primary Antibody 24 Identifier
           clientname: Antibody Identifier
@@ -309,7 +309,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 25]
-          clientname: Antibody 25
+          clientname: Antibody
           include: true
         - name: Primary Antibody 25 Identifier
           clientname: Antibody Identifier
@@ -319,7 +319,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 26]
-          clientname: Antibody 26
+          clientname: Antibody
           include: true
         - name: Primary Antibody 26 Identifier
           clientname: Antibody Identifier
@@ -329,7 +329,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 27]
-          clientname: Antibody 27
+          clientname: Antibody
           include: true
         - name: Primary Antibody 27 Identifier
           clientname: Antibody Identifier
@@ -339,7 +339,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 28]
-          clientname: Antibody 28
+          clientname: Antibody
           include: true
         - name: Primary Antibody 28 Identifier
           clientname: Antibody Identifier
@@ -349,7 +349,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 29]
-          clientname: Antibody 29
+          clientname: Antibody
           include: true
         - name: Primary Antibody 29 Identifier
           clientname: Antibody Identifier
@@ -359,7 +359,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 30]
-          clientname: Antibody 30
+          clientname: Antibody
           include: true
         - name: Primary Antibody 30 Identifier
           clientname: Antibody Identifier
@@ -369,7 +369,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 31]
-          clientname: Antibody 31
+          clientname: Antibody
           include: true
         - name: Primary Antibody 31 Identifier
           clientname: Antibody Identifier
@@ -379,7 +379,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 32]
-          clientname: Antibody 32
+          clientname: Antibody
           include: true
         - name: Primary Antibody 32 Identifier
           clientname: Antibody Identifier
@@ -389,7 +389,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 33]
-          clientname: Antibody 33
+          clientname: Antibody
           include: true
         - name: Primary Antibody 33 Identifier
           clientname: Antibody Identifier
@@ -399,7 +399,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 34]
-          clientname: Antibody 34
+          clientname: Antibody
           include: true
         - name: Primary Antibody 34 Identifier
           clientname: Antibody Identifier
@@ -409,7 +409,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 35]
-          clientname: Antibody 35
+          clientname: Antibody
           include: true
         - name: Primary Antibody 35 Identifier
           clientname: Antibody Identifier
@@ -419,7 +419,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 36]
-          clientname: Antibody 36
+          clientname: Antibody
           include: true
         - name: Primary Antibody 36 Identifier
           clientname: Antibody Identifier
@@ -429,7 +429,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 37]
-          clientname: Antibody 37
+          clientname: Antibody
           include: true
         - name: Primary Antibody 37 Identifier
           clientname: Antibody Identifier
@@ -439,7 +439,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 38]
-          clientname: Antibody 38
+          clientname: Antibody
           include: true
         - name: Primary Antibody 38 Identifier
           clientname: Antibody Identifier
@@ -449,7 +449,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 39]
-          clientname: Antibody 39
+          clientname: Antibody
           include: true
         - name: Primary Antibody 39 Identifier
           clientname: Antibody Identifier
@@ -459,7 +459,7 @@ columns:
           clientvalue: http://antibodyregistry.org/{{ value|urlencode }}
           include: true
         - name: Experimental Condition [Primary Antibody 40]
-          clientname: Antibody 40
+          clientname: Antibody
           include: true
         - name: Primary Antibody 40 Identifier
           clientname: Antibody Identifier
@@ -472,122 +472,242 @@ columns:
   - group:
       namespace: openmicroscopy.org/mapr/antibody/supplementary
       columns:
+        - name: Primary Antibody 1 Identifier
+          clientname: Antibody 1 Identifier
+          include: true
         - name: Primary Antibody 1 Dilution
           clientname: Antibody 1 Dilution
+          include: true
+        - name: Primary Antibody 2 Identifier
+          clientname: Antibody 2 Identifier
           include: true
         - name: Primary Antibody 2 Dilution
           clientname: Antibody 2 Dilution
           include: true
+        - name: Primary Antibody 3 Identifier
+          clientname: Antibody 3 Identifier
+          include: true
         - name: Primary Antibody 3 Dilution
           clientname: Antibody 3 Dilution
+          include: true
+        - name: Primary Antibody 4 Identifier
+          clientname: Antibody 4 Identifier
           include: true
         - name: Primary Antibody 4 Dilution
           clientname: Antibody 4 Dilution
           include: true
+        - name: Primary Antibody 5 Identifier
+          clientname: Antibody 5 Identifier
+          include: true
         - name: Primary Antibody 5 Dilution
           clientname: Antibody 5 Dilution
+          include: true
+        - name: Primary Antibody 6 Identifier
+          clientname: Antibody 6 Identifier
           include: true
         - name: Primary Antibody 6 Dilution
           clientname: Antibody 6 Dilution
           include: true
+        - name: Primary Antibody 7 Identifier
+          clientname: Antibody 7 Identifier
+          include: true
         - name: Primary Antibody 7 Dilution
           clientname: Antibody 7 Dilution
+          include: true
+        - name: Primary Antibody 8 Identifier
+          clientname: Antibody 8 Identifier
           include: true
         - name: Primary Antibody 8 Dilution
           clientname: Antibody 8 Dilution
           include: true
+        - name: Primary Antibody 9 Identifier
+          clientname: Antibody 9 Identifier
+          include: true
         - name: Primary Antibody 9 Dilution
           clientname: Antibody 9 Dilution
+          include: true
+        - name: Primary Antibody 10 Identifier
+          clientname: Antibody 10 Identifier
           include: true
         - name: Primary Antibody 10 Dilution
           clientname: Antibody 10 Dilution
           include: true
+        - name: Primary Antibody 11 Identifier
+          clientname: Antibody 11 Identifier
+          include: true
         - name: Primary Antibody 11 Dilution
           clientname: Antibody 11 Dilution
+          include: true
+        - name: Primary Antibody 12 Identifier
+          clientname: Antibody 12 Identifier
           include: true
         - name: Primary Antibody 12 Dilution
           clientname: Antibody 12 Dilution
           include: true
+        - name: Primary Antibody 13 Identifier
+          clientname: Antibody 13 Identifier
+          include: true
         - name: Primary Antibody 13 Dilution
           clientname: Antibody 13 Dilution
+          include: true
+        - name: Primary Antibody 14 Identifier
+          clientname: Antibody 14 Identifier
           include: true
         - name: Primary Antibody 14 Dilution
           clientname: Antibody 14 Dilution
           include: true
+        - name: Primary Antibody 15 Identifier
+          clientname: Antibody 15 Identifier
+          include: true
         - name: Primary Antibody 15 Dilution
           clientname: Antibody 15 Dilution
+          include: true
+        - name: Primary Antibody 16 Identifier
+          clientname: Antibody 16 Identifier
           include: true
         - name: Primary Antibody 16 Dilution
           clientname: Antibody 16 Dilution
           include: true
+        - name: Primary Antibody 17 Identifier
+          clientname: Antibody 17 Identifier
+          include: true
         - name: Primary Antibody 17 Dilution
           clientname: Antibody 17 Dilution
+          include: true
+        - name: Primary Antibody 18 Identifier
+          clientname: Antibody 18 Identifier
           include: true
         - name: Primary Antibody 18 Dilution
           clientname: Antibody 18 Dilution
           include: true
+        - name: Primary Antibody 19 Identifier
+          clientname: Antibody 19 Identifier
+          include: true
         - name: Primary Antibody 19 Dilution
           clientname: Antibody 19 Dilution
+          include: true
+        - name: Primary Antibody 20 Identifier
+          clientname: Antibody 20 Identifier
           include: true
         - name: Primary Antibody 20 Dilution
           clientname: Antibody 20 Dilution
           include: true
+        - name: Primary Antibody 21 Identifier
+          clientname: Antibody 21 Identifier
+          include: true
         - name: Primary Antibody 21 Dilution
           clientname: Antibody 21 Dilution
+          include: true
+        - name: Primary Antibody 22 Identifier
+          clientname: Antibody 22 Identifier
           include: true
         - name: Primary Antibody 22 Dilution
           clientname: Antibody 22 Dilution
           include: true
+        - name: Primary Antibody 23 Identifier
+          clientname: Antibody 23 Identifier
+          include: true
         - name: Primary Antibody 23 Dilution
           clientname: Antibody 23 Dilution
+          include: true
+        - name: Primary Antibody 24 Identifier
+          clientname: Antibody 24 Identifier
           include: true
         - name: Primary Antibody 24 Dilution
           clientname: Antibody 24 Dilution
           include: true
+        - name: Primary Antibody 25 Identifier
+          clientname: Antibody 25 Identifier
+          include: true
         - name: Primary Antibody 25 Dilution
           clientname: Antibody 25 Dilution
+          include: true
+        - name: Primary Antibody 26 Identifier
+          clientname: Antibody 26 Identifier
           include: true
         - name: Primary Antibody 26 Dilution
           clientname: Antibody 26 Dilution
           include: true
+        - name: Primary Antibody 27 Identifier
+          clientname: Antibody 27 Identifier
+          include: true
         - name: Primary Antibody 27 Dilution
           clientname: Antibody 27 Dilution
+          include: true
+        - name: Primary Antibody 28 Identifier
+          clientname: Antibody 28 Identifier
           include: true
         - name: Primary Antibody 28 Dilution
           clientname: Antibody 28 Dilution
           include: true
+        - name: Primary Antibody 29 Identifier
+          clientname: Antibody 29 Identifier
+          include: true
         - name: Primary Antibody 29 Dilution
           clientname: Antibody 29 Dilution
+          include: true
+        - name: Primary Antibody 30 Identifier
+          clientname: Antibody 30 Identifier
           include: true
         - name: Primary Antibody 30 Dilution
           clientname: Antibody 30 Dilution
           include: true
+        - name: Primary Antibody 31 Identifier
+          clientname: Antibody 31 Identifier
+          include: true
         - name: Primary Antibody 31 Dilution
           clientname: Antibody 31 Dilution
+          include: true
+        - name: Primary Antibody 32 Identifier
+          clientname: Antibody 32 Identifier
           include: true
         - name: Primary Antibody 32 Dilution
           clientname: Antibody 32 Dilution
           include: true
+        - name: Primary Antibody 33 Identifier
+          clientname: Antibody 33 Identifier
+          include: true
         - name: Primary Antibody 33 Dilution
           clientname: Antibody 33 Dilution
+          include: true
+        - name: Primary Antibody 34 Identifier
+          clientname: Antibody 34 Identifier
           include: true
         - name: Primary Antibody 34 Dilution
           clientname: Antibody 34 Dilution
           include: true
+        - name: Primary Antibody 35 Identifier
+          clientname: Antibody 35 Identifier
+          include: true
         - name: Primary Antibody 35 Dilution
           clientname: Antibody 35 Dilution
+          include: true
+        - name: Primary Antibody 36 Identifier
+          clientname: Antibody 36 Identifier
           include: true
         - name: Primary Antibody 36 Dilution
           clientname: Antibody 36 Dilution
           include: true
+        - name: Primary Antibody 37 Identifier
+          clientname: Antibody 37 Identifier
+          include: true
         - name: Primary Antibody 37 Dilution
           clientname: Antibody 37 Dilution
+          include: true
+        - name: Primary Antibody 38 Identifier
+          clientname: Antibody 38 Identifier
           include: true
         - name: Primary Antibody 38 Dilution
           clientname: Antibody 38 Dilution
           include: true
+        - name: Primary Antibody 39 Identifier
+          clientname: Antibody 39 Identifier
+          include: true
         - name: Primary Antibody 39 Dilution
           clientname: Antibody 39 Dilution
+          include: true
+        - name: Primary Antibody 40 Identifier
+          clientname: Antibody 40 Identifier
           include: true
         - name: Primary Antibody 40 Dilution
           clientname: Antibody 40 Dilution
@@ -647,6 +767,7 @@ advanced:
         - Organism
     - namespace: openmicroscopy.org/mapr/antibody
       keys:
+        - Antibody
         - Antibody Identifier
     - namespace: openmicroscopy.org/mapr/OMAP
       keys:
