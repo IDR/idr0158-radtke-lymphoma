@@ -877,6 +877,7 @@ advanced:
         - Organism
     - namespace: openmicroscopy.org/mapr/antibody
       keys:
+        - Antibody
         - Antibody Identifier
     - namespace: openmicroscopy.org/mapr/OMAP
       keys:
