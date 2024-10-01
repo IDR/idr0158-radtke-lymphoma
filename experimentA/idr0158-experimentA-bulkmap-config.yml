@@ -823,7 +823,7 @@ columns:
           clientname: Antibody 40 Dilution
           include: true
         - name: Experimental Condition [Secondary Antibody 1]
-          clientname: Secondary Antibody 1
+          clientname: Secondary Antibody 1 Name
           include: true
         - name: Secondary Antibody 1 Identifier
           clientname: Secondary Antibody 1 Identifier
@@ -832,7 +832,7 @@ columns:
           clientname: Secondary Antibody 1 Dilution
           include: true
         - name: Experimental Condition [Secondary Antibody 2]
-          clientname: Secondary Antibody 2
+          clientname: Secondary Antibody 2 Name
           include: true
         - name: Secondary Antibody 2 Identifier
           clientname: Secondary Antibody 2 Identifier
@@ -841,7 +841,7 @@ columns:
           clientname: Secondary Antibody 2 Dilution
           include: true
         - name: Experimental Condition [Secondary Antibody 3]
-          clientname: Secondary Antibody 3
+          clientname: Secondary Antibody 3 Name
           include: true
         - name: Secondary Antibody 3 Identifier
           clientname: Secondary Antibody 3 Identifier
@@ -850,7 +850,7 @@ columns:
           clientname: Secondary Antibody 3 Dilution
           include: true
         - name: Experimental Condition [Secondary Antibody 4]
-          clientname: Secondary Antibody 4
+          clientname: Secondary Antibody 4 Name
           include: true
         - name: Secondary Antibody 4 Identifier
           clientname: Secondary Antibody 4 Identifier
