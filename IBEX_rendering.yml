@@ -1,0 +1,16 @@
+channels:
+    1:
+        active: true
+    2:
+        active: true
+    3:
+        active: true
+    4:
+        active: true
+    5:
+        active: true
+    6:
+        active: true
+greyscale: false
+version: 2
+
