@@ -1,0 +1,98 @@
+# FILL IN AS MUCH INFORMATION AS YOU CAN.  HINTS HAVE BEEN PUT IN SOME FIELDS AFTER THE HASH # SYMBOL. REPLACE THE HINT WITH TEXT WHERE APPROPRIATE.				
+				
+# STUDY DESCRIPTION SECTION				
+# Section with generic information about the study including title, description, publication details (if applicable) and contact details				
+				
+Comment[IDR Study Accession]	idr0158		
+Study Title	Multi-omic profiling of follicular lymphoma tumors reveals changes in tissue architecture and enhanced stromal remodeling in high-risk patients 		
+Study Type	multiplexed immunofluorescence			
+Study Type Term Source REF	NCIT			
+Study Type Term Accession	NCIT_C181928		
+Study Description	Reference atlases, molecular and spatial maps of mammalian tissues, are critical resources for discovery efforts and translational research. Their utility is dependent on operationalizing the resulting data by identifying cell types, histological patterns, and predictive biomarkers underlying health and disease. The human lymph node (LN) offers a compelling use case because of its importance in immunity, structural and cellular diversity, and neoplastic involvement. One hematological malignancy, follicular lymphoma (FL), evolves from developmentally blocked germinal center B cells residing in and trafficking through these tissues. To promote survival and immune escape, tumor B cells undergo significant genetic changes and extensively remodel the lymphoid microenvironment. Here, we present an integrated portrait of healthy and FL LNs using multiple genomic and advanced imaging technologies. By leveraging the strengths of each platform, we identify several tumor-specific features and microenvironmental patterns enriched in individuals who experience early relapse, the most high-risk of FL patients.		
+Study Key Words	Follicular lymphoma	Cancer associated fibroblasts (CAFs)			
+Study Organism	Homo sapiens			
+Study Organism Term Source REF	NCBITaxon			
+Study Organism Term Accession	9606			
+Study Experiments Number	1				
+Study External URL		
+Study BioImage Archive Accession		
+Study Public Release Date	2024-10-07					
+				
+# Study Publication		
+Study PubMed ID	38428410			
+Study Publication Title	Multi-omic profiling of follicular lymphoma reveals changes in tissue architecture and enhanced stromal remodeling in high-risk patients		
+Study Author List	Radtke AJ, Postovalova E, Varlamova A, Bagaev A, Sorokina M, Kudryashova O, Meerson M, Polyakova M, Galkin I, Svekolkin V, Isaev S, Wiebe D, Sharun A, Sarachakov A, Perelman G, Lozinsky Y, Yaniv Z, Lowekamp BC, Speranza E, Yao L, Pittaluga S, Shaffer AL, Jonigk D, Phelan JD, Davies-Hill T, Huang DW, Ovcharov P, Nomie K, Nuzhdina E, Kotlov N, Ataullakhanov R, Fowler N, Kelly M, Muppidi J, Davis JL, Hernandez JM, Wilson WH, Jaffe ES, Staudt LM, Roschewski M, Germain RN 	
+Study PMC ID	PMC10966827				
+Study DOI	https://doi.org/10.1016/j.ccell.2024.02.001				
+				
+# Study Contacts				
+Study Person Last Name	Radtke		
+Study Person First Name	Andrea		
+Study Person Email	andrea.radtke@nih.gov			
+Study Person Address	Lymphocyte Biology Section and Center for Advanced Tissue Imaging, Laboratory of Immune System Biology, NIAID, NIH, Bethesda, MD, 20892, USA 			
+Study Person ORCID	0000-0003-4379-8967			
+Study Person Roles	submitter			
+				
+# Study License and Data DOI				
+Study License	CC BY 4.0			
+Study License URL	https://creativecommons.org/licenses/by/4.0/			
+Study Copyright	Radtke et al			
+Study Data Publisher	University of Dundee			
+Study Data DOI			
+				
+Term Source Name	NCBITaxon			
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/
+				
+				
+# EXPERIMENT SECTION				
+# Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment			
+				
+Experiment Number	1				
+Comment[IDR Experiment Name]	idr0158-radtke-lymphoma/experimentA
+Experiment Sample Type	tissue
+Experiment Description	40-plex iterative bleaching extends multiplexity (IBEX) imaging was performed on fixed frozen tissues from normal human lymph nodes and follicular lymphoma lymph nodes. Multiplexed immunofluorescence (MxIF) imaging was performed on serial FFPE tissue sections from follicular lymphoma lymph nodes. Four distinct antibody panels were applied to each tissue section referred to as MxIF Panel 1 (MxIF_P1), MxIF Panel 2 (MxIF_P2),  MxIF Panel 3 (MxIF_P3), and MxIF Panel 4 (MxIF_P4). Multiplexed imaging was performed on serial FFPE tissue sections from normal and follicular lymphoma lymph nodes using the Cell DIVE imager and IBEX dye inactivation protocol (Cell DIVE-IBEX). Two panels of antibodies, immune (CellDIVE_IBEX_Immune) or stromal (CellDIVE_IBEX_Stromal), were applied to serial sections. IBEX and MxIF imaging were performed on a discovery cohort of 10 samples. Key spatial findings were extended to a larger validation cohort of 29 samples using the Cell DIVE-IBEX method. 
+Experiment Example Images			
+Experiment Imaging Method	confocal microscopy		
+Experiment Imaging Method Term Source REF	Fbbi
+Experiment Imaging Method Term Accession	FBbi_00000251		
+Experiment Comments	See Cell DIVE-IBEX images for higher quality imaging data with several of the same markers present in MxIF_P1, MxIF_P2, MxIF_P3, and MxIF_P4 images.				
+						
+# assay files				
+Experiment Assay File	idr158-experimentA-annotation
+Experiment Assay File Format	tab-delimited text			
+Assay Experimental Conditions				
+Assay Experimental Conditions Term Source REF				
+Assay Experimental Conditions Term Accession				
+Quality Control Description	
+						
+# Protocols				
+Protocol Name	IBEX, MxIF, Cell DIVE-IBEX
+Protocol Type	
+Protocol Type Term Source REF	EFO	EFO	
+Protocol Type Term Accession			
+Protocol Description	Sample Description: For IBEX images: Fixed frozen tissues were prepared from excisional lymph node biopsies. Images were acquired using the IBEX method and a panel of antibodies directed against 39 protein targets and the nuclear dye (Hoechst). For MxIF images: FFPE tissues were prepared from excisional lymph node biopsies. Prior to antibody labeling, antigen retrieval was performed using the AR6 (pH 6) buffer and a water bath. Four panels of antibodies (2-4 protein targets per panel) and the nuclear dye (Hoechst) were visualized in each tissue section. For Cell DIVE-IBEX images: FFPE tissues were prepared from excisional lymph node biopsies. Prior to antibody labeling, antigen retrieval was performed using the ER1 and ER2 buffers and the Leica Bond. Two antibody panels, termed immune or stromal, were applied to serial sections using cyclic imaging with the Cell DIVE and dye inactivation using the IBEX protocol. Images were aligned using the Hoechst channel as a fiducial.  Additional details on antibodies, image alignment, and related protocols can be found on the IBEX Imaging Community website: https://ibeximagingcommunity.github.io/ibex_imaging_knowledge_base/	Quantification Process: Details on the advanced image analyses performed on these samples are included in the accompanying manuscript. 
+				
+# Phenotypes				
+Phenotype Name				
+Phenotype Description				
+Phenotype Score Type				
+Phenotype Term Source REF	CMPO			
+Phenotype Term Name			
+Phenotype Term Accession		 	
+					
+# Feature Level Data Files (give individual file details unless there is one file per well)				
+Feature Level Data File Name				
+Feature Level Data File Format				
+Feature Level Data File Description			
+Feature Level Data Column Name				
+Feature Level Data Column Description	
+		
+#  Processed Data Files 				
+Processed Data File Name	idr0158-experimentA-processed		
+Processed Data File Format	xlsx
+Processed Data File Description	excel workbook (multiple tabs)	
+Processed Data Column Name			
+Processed Data Column Type				
+Processed Data Column Annotation Level		
+Processed Data Column Description				
+Processed Data Column Link To Assay File			
