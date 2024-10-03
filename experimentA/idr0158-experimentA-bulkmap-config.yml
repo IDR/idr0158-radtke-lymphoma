@@ -866,7 +866,7 @@ columns:
           clientname: OMAP Number
           include: true
         - name: OMAP URL
-          clientname: OMAP URL
+          clientname: OMAP Number URL
           include: true
 
 advanced:
@@ -882,4 +882,3 @@ advanced:
     - namespace: openmicroscopy.org/mapr/OMAP
       keys:
         - OMAP Number
-        - OMAP URL
