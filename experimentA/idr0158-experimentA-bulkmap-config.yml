@@ -590,245 +590,405 @@ columns:
       namespace: openmicroscopy.org/mapr/antibody/supplementary
       columns:
         - name: Experimental Condition [Primary Antibody 1]
-          clientname: Antibody 1 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 1 Dilution
-          clientname: Antibody 1 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 2]
-          clientname: Antibody 2 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 2 Dilution
-          clientname: Antibody 2 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 3]
-          clientname: Antibody 3 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 3 Dilution
-          clientname: Antibody 3 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 4]
-          clientname: Antibody 4 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 4 Dilution
-          clientname: Antibody 4 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 5]
-          clientname: Antibody 5 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 5 Dilution
-          clientname: Antibody 5 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 6]
-          clientname: Antibody 6 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 6 Dilution
-          clientname: Antibody 6 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 7]
-          clientname: Antibody 7 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 7 Dilution
-          clientname: Antibody 7 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 8]
-          clientname: Antibody 8 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 8 Dilution
-          clientname: Antibody 8 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 9]
-          clientname: Antibody 9 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 9 Dilution
-          clientname: Antibody 9 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 10]
-          clientname: Antibody 10 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 10 Dilution
-          clientname: Antibody 10 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 11]
-          clientname: Antibody 11 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 11 Dilution
-          clientname: Antibody 11 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 12]
-          clientname: Antibody 12 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 12 Dilution
-          clientname: Antibody 12 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 13]
-          clientname: Antibody 13 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 13 Dilution
-          clientname: Antibody 13 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 14]
-          clientname: Antibody 14 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 14 Dilution
-          clientname: Antibody 14 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 15]
-          clientname: Antibody 15 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 15 Dilution
-          clientname: Antibody 15 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 16]
-          clientname: Antibody 16 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 16 Dilution
-          clientname: Antibody 16 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 17]
-          clientname: Antibody 17 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 17 Dilution
-          clientname: Antibody 17 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 18]
-          clientname: Antibody 18 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 18 Dilution
-          clientname: Antibody 18 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 19]
-          clientname: Antibody 19 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 19 Dilution
-          clientname: Antibody 19 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 20]
-          clientname: Antibody 20 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 20 Dilution
-          clientname: Antibody 20 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 21]
-          clientname: Antibody 21 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 21 Dilution
-          clientname: Antibody 21 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 22]
-          clientname: Antibody 22 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 22 Dilution
-          clientname: Antibody 22 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 23]
-          clientname: Antibody 23 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 23 Dilution
-          clientname: Antibody 23 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 24]
-          clientname: Antibody 24 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 24 Dilution
-          clientname: Antibody 24 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 25]
-          clientname: Antibody 25 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 25 Dilution
-          clientname: Antibody 25 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 26]
-          clientname: Antibody 26 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 26 Dilution
-          clientname: Antibody 26 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 27]
-          clientname: Antibody 27 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 27 Dilution
-          clientname: Antibody 27 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 28]
-          clientname: Antibody 28 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 28 Dilution
-          clientname: Antibody 28 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 29]
-          clientname: Antibody 29 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 29 Dilution
-          clientname: Antibody 29 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 30]
-          clientname: Antibody 30 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 30 Dilution
-          clientname: Antibody 30 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 31]
-          clientname: Antibody 31 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 31 Dilution
-          clientname: Antibody 31 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 32]
-          clientname: Antibody 32 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 32 Dilution
-          clientname: Antibody 32 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 33]
-          clientname: Antibody 33 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 33 Dilution
-          clientname: Antibody 33 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 34]
-          clientname: Antibody 34 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 34 Dilution
-          clientname: Antibody 34 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 35]
-          clientname: Antibody 35 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 35 Dilution
-          clientname: Antibody 35 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 36]
-          clientname: Antibody 36 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 36 Dilution
-          clientname: Antibody 36 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 37]
-          clientname: Antibody 37 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 37 Dilution
-          clientname: Antibody 37 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 38]
-          clientname: Antibody 38 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 38 Dilution
-          clientname: Antibody 38 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 39]
-          clientname: Antibody 39 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 39 Dilution
-          clientname: Antibody 39 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Primary Antibody 40]
-          clientname: Antibody 40 Name
+          clientname: Antibody Name
           include: true
         - name: Primary Antibody 40 Dilution
-          clientname: Antibody 40 Dilution
+          clientname: Dilution Factor
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/antibody/supplementary
+      columns:
         - name: Experimental Condition [Secondary Antibody 1]
           clientname: Secondary Antibody 1 Name
           include: true
